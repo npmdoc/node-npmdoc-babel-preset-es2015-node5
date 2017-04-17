@@ -1,0 +1,1706 @@
+<html><head></head><body><div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a href="https://github.com/alekseykulikov/babel-preset-es2015-node5#readme">babel-preset-es2015-node5 (v1.2.0)</a>
+</h1>
+<h4>Babel preset to make node@5 fully ES2015 compatible.</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.babel-preset-es2015-node5">module babel-preset-es2015-node5</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.babel-preset-es2015-node5.plugins.0">
+            function <span class="apidocSignatureSpan">babel-preset-es2015-node5.</span>plugins.0
+            <span class="apidocSignatureSpan">(_ref)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.babel-preset-es2015-node5.plugins.1">
+            function <span class="apidocSignatureSpan">babel-preset-es2015-node5.</span>plugins.1
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.babel-preset-es2015-node5.plugins.2">
+            function <span class="apidocSignatureSpan">babel-preset-es2015-node5.</span>plugins.2
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.babel-preset-es2015-node5.plugins.3">
+            function <span class="apidocSignatureSpan">babel-preset-es2015-node5.</span>plugins.3
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.babel-preset-es2015-node5.plugins.4">
+            function <span class="apidocSignatureSpan">babel-preset-es2015-node5.</span>plugins.4
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.babel-preset-es2015-node5.plugins.5">
+            function <span class="apidocSignatureSpan">babel-preset-es2015-node5.</span>plugins.5
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.babel-preset-es2015-node5.plugins.6">
+            function <span class="apidocSignatureSpan">babel-preset-es2015-node5.</span>plugins.6
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">babel-preset-es2015-node5.</span>plugins</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.babel-preset-es2015-node5.plugins">module babel-preset-es2015-node5.plugins</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.babel-preset-es2015-node5.plugins.0">
+            function <span class="apidocSignatureSpan">babel-preset-es2015-node5.plugins.</span>0
+            <span class="apidocSignatureSpan">(_ref)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.babel-preset-es2015-node5.plugins.1">
+            function <span class="apidocSignatureSpan">babel-preset-es2015-node5.plugins.</span>1
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.babel-preset-es2015-node5.plugins.2">
+            function <span class="apidocSignatureSpan">babel-preset-es2015-node5.plugins.</span>2
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.babel-preset-es2015-node5.plugins.3">
+            function <span class="apidocSignatureSpan">babel-preset-es2015-node5.plugins.</span>3
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.babel-preset-es2015-node5.plugins.4">
+            function <span class="apidocSignatureSpan">babel-preset-es2015-node5.plugins.</span>4
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.babel-preset-es2015-node5.plugins.5">
+            function <span class="apidocSignatureSpan">babel-preset-es2015-node5.plugins.</span>5
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.babel-preset-es2015-node5.plugins.6">
+            function <span class="apidocSignatureSpan">babel-preset-es2015-node5.plugins.</span>6
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.babel-preset-es2015-node5.plugins.0">module babel-preset-es2015-node5.plugins.0</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.babel-preset-es2015-node5.plugins.0.0">
+            function <span class="apidocSignatureSpan">babel-preset-es2015-node5.plugins.</span>0
+            <span class="apidocSignatureSpan">(_ref)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.babel-preset-es2015-node5.plugins.1">module babel-preset-es2015-node5.plugins.1</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.babel-preset-es2015-node5.plugins.1.1">
+            function <span class="apidocSignatureSpan">babel-preset-es2015-node5.plugins.</span>1
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.babel-preset-es2015-node5.plugins.2">module babel-preset-es2015-node5.plugins.2</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.babel-preset-es2015-node5.plugins.2.2">
+            function <span class="apidocSignatureSpan">babel-preset-es2015-node5.plugins.</span>2
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.babel-preset-es2015-node5.plugins.3">module babel-preset-es2015-node5.plugins.3</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.babel-preset-es2015-node5.plugins.3.3">
+            function <span class="apidocSignatureSpan">babel-preset-es2015-node5.plugins.</span>3
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.babel-preset-es2015-node5.plugins.4">module babel-preset-es2015-node5.plugins.4</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.babel-preset-es2015-node5.plugins.4.4">
+            function <span class="apidocSignatureSpan">babel-preset-es2015-node5.plugins.</span>4
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.babel-preset-es2015-node5.plugins.5">module babel-preset-es2015-node5.plugins.5</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.babel-preset-es2015-node5.plugins.5.5">
+            function <span class="apidocSignatureSpan">babel-preset-es2015-node5.plugins.</span>5
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.babel-preset-es2015-node5.plugins.6">module babel-preset-es2015-node5.plugins.6</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.babel-preset-es2015-node5.plugins.6.6">
+            function <span class="apidocSignatureSpan">babel-preset-es2015-node5.plugins.</span>6
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.babel-preset-es2015-node5" id="apidoc.module.babel-preset-es2015-node5">module babel-preset-es2015-node5</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.babel-preset-es2015-node5.plugins.0" id="apidoc.element.babel-preset-es2015-node5.plugins.0">
+        function <span class="apidocSignatureSpan">babel-preset-es2015-node5.</span>plugins.0
+        <span class="apidocSignatureSpan">(_ref)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">plugins.0 = function (_ref) {
+  var t = _ref.types;
+
+
+  function variableDeclarationHasPattern(node) {
+    for (var _iterator = node.declarations, _isArray = Array.isArray(_iterator), _i = 0, _iterator = _isArray ? _iterator : (0,
+_getIterator3.default)(_iterator);;) {
+      var _ref2;
+
+      if (_isArray) {
+        if (_i &gt;= _iterator.length) break;
+        _ref2 = _iterator[_i++];
+      } else {
+        _i = _iterator.next();
+        if (_i.done) break;
+        _ref2 = _i.value;
+      }
+
+      var declar = _ref2;
+
+      if (t.isPattern(declar.id)) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  function hasRest(pattern) {
+    for (var _iterator2 = pattern.elements, _isArray2 = Array.isArray(_iterator2), _i2 = 0, _iterator2 = _isArray2 ? _iterator2 : (
+0, _getIterator3.default)(_iterator2);;) {
+      var _ref3;
+
+      if (_isArray2) {
+        if (_i2 &gt;= _iterator2.length) break;
+        _ref3 = _iterator2[_i2++];
+      } else {
+        _i2 = _iterator2.next();
+        if (_i2.done) break;
+        _ref3 = _i2.value;
+      }
+
+      var elem = _ref3;
+
+      if (t.isRestElement(elem)) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  var arrayUnpackVisitor = {
+    ReferencedIdentifier: function ReferencedIdentifier(path, state) {
+      if (state.bindings[path.node.name]) {
+        state.deopt = true;
+        path.stop();
+      }
+    }
+  };
+
+  var DestructuringTransformer = function () {
+    function DestructuringTransformer(opts) {
+      (0, _classCallCheck3.default)(this, DestructuringTransformer);
+
+      this.blockHoist = opts.blockHoist;
+      this.operator = opts.operator;
+      this.arrays = {};
+      this.nodes = opts.nodes || [];
+      this.scope = opts.scope;
+      this.file = opts.file;
+      this.kind = opts.kind;
+    }
+
+    DestructuringTransformer.prototype.buildVariableAssignment = function buildVariableAssignment(id, init) {
+      var op = this.operator;
+      if (t.isMemberExpression(id)) op = "=";
+
+      var node = void 0;
+
+      if (op) {
+        node = t.expressionStatement(t.assignmentExpression(op, id, init));
+      } else {
+        node = t.variableDeclaration(this.kind, [t.variableDeclarator(id, init)]);
+      }
+
+      node._blockHoist = this.blockHoist;
+
+      return node;
+    };
+
+    DestructuringTransformer.prototype.buildVariableDeclaration = function buildVariableDeclaration(id, init) {
+      var declar = t.variableDeclaration("var", [t.variableDeclarator(id, init)]);
+      declar._blockHoist = this.blockHoist;
+      return declar;
+    };
+
+    DestructuringTransformer.prototype.push = function push(id, init) {
+      if (t.isObjectPattern(id)) {
+        this.pushObjectPattern(id, init);
+      } else if (t.isArrayPattern(id)) {
+        this.pushArrayPattern(id, init);
+      } else if (t.isAssignmentPattern(id)) {
+        this.pushAssignmentPattern(id, init);
+      } else {
+        this.nodes.push(this.buildVariableAssignment(id, init));
+      }
+    };
+
+    DestructuringTransformer.prototype.toArray = function toArray(node, count) {
+      if (this.file.opts.loose || t.isIdentifier(node) &amp;&amp; this.arrays[node.name]) {
+        return node;
+      } else {
+        return this.scope.toArray(node, count);
+      }
+    };
+
+    DestructuringTransformer.prototype.pushAssignmentPattern = function pushAssignmentPattern(pattern, valueRef) {
+
+      var tempValueRef = this.scope.generateUidIdentifierBasedOnNode(valueRef);
+
+      var declar = t.variableDeclaration("var", [t.variableDeclarator(tempValueRef, valueRef)]);
+      declar._blockHoist = this.blockHoist;
+      this.nodes.push(declar);
+
+      var tempConditional = t.conditionalExpression(t.binaryExpression("===", tempValueRef, t.identifier("undefined")), pattern.
+right, tempValueRef);
+
+      var left = pattern.left;
+      if (t.isPattern(left)) {
+        var tempValueDefault = t.expressionStatement(t.assignmentExpression("=", tempValueRef, tempConditional));
+        tempValueDefault._blockHoist = this.blockHoist;
+
+        this.nodes.push(tempValueDefault);
+        this.push(left, tempValueRef);
+      } else {
+        this.nodes.push(this.buildVar ...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.babel-preset-es2015-node5.plugins.1" id="apidoc.element.babel-preset-es2015-node5.plugins.1">
+        function <span class="apidocSignatureSpan">babel-preset-es2015-node5.</span>plugins.1
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">plugins.1 = function () {
+  var REASSIGN_REMAP_SKIP = (0, _symbol2.default)();
+
+  var reassignmentVisitor = {
+    ReferencedIdentifier: function ReferencedIdentifier(path) {
+      var name = path.node.name;
+      var remap = this.remaps[name];
+      if (!remap) return;
+
+      if (this.scope.getBinding(name) !== path.scope.getBinding(name)) return;
+
+      if (path.parentPath.isCallExpression({ callee: path.node })) {
+        path.replaceWith(t.sequenceExpression([t.numericLiteral(0), remap]));
+      } else if (path.isJSXIdentifier() &amp;&amp; t.isMemberExpression(remap)) {
+        var object = remap.object,
+            property = remap.property;
+
+        path.replaceWith(t.JSXMemberExpression(t.JSXIdentifier(object.name), t.JSXIdentifier(property.name)));
+      } else {
+        path.replaceWith(remap);
+      }
+      this.requeueInParent(path);
+    },
+    AssignmentExpression: function AssignmentExpression(path) {
+      var node = path.node;
+      if (node[REASSIGN_REMAP_SKIP]) return;
+
+      var left = path.get("left");
+      if (!left.isIdentifier()) return;
+
+      var name = left.node.name;
+      var exports = this.exports[name];
+      if (!exports) return;
+
+      if (this.scope.getBinding(name) !== path.scope.getBinding(name)) return;
+
+      node[REASSIGN_REMAP_SKIP] = true;
+
+      for (var _iterator = exports, _isArray = Array.isArray(_iterator), _i = 0, _iterator = _isArray ? _iterator : (0, _getIterator3
+.default)(_iterator);;) {
+        var _ref;
+
+        if (_isArray) {
+          if (_i &gt;= _iterator.length) break;
+          _ref = _iterator[_i++];
+        } else {
+          _i = _iterator.next();
+          if (_i.done) break;
+          _ref = _i.value;
+        }
+
+        var reid = _ref;
+
+        node = buildExportsAssignment(reid, node).expression;
+      }
+
+      path.replaceWith(node);
+      this.requeueInParent(path);
+    },
+    UpdateExpression: function UpdateExpression(path) {
+      var arg = path.get("argument");
+      if (!arg.isIdentifier()) return;
+
+      var name = arg.node.name;
+      var exports = this.exports[name];
+      if (!exports) return;
+
+      if (this.scope.getBinding(name) !== path.scope.getBinding(name)) return;
+
+      var node = t.assignmentExpression(path.node.operator[0] + "=", arg.node, t.numericLiteral(1));
+
+      if (path.parentPath.isExpressionStatement() &amp;&amp; !path.isCompletionRecord() || path.node.prefix) {
+        path.replaceWith(node);
+        this.requeueInParent(path);
+        return;
+      }
+
+      var nodes = [];
+      nodes.push(node);
+
+      var operator = void 0;
+      if (path.node.operator === "--") {
+        operator = "+";
+      } else {
+        operator = "-";
+      }
+      nodes.push(t.binaryExpression(operator, arg.node, t.numericLiteral(1)));
+
+      path.replaceWithMultiple(t.sequenceExpression(nodes));
+    }
+  };
+
+  return {
+    inherits: require("babel-plugin-transform-strict-mode"),
+
+    visitor: {
+      ThisExpression: function ThisExpression(path, state) {
+        if (this.ranCommonJS) return;
+
+        if (state.opts.allowTopLevelThis !== true &amp;&amp; !path.findParent(function (path) {
+          return !path.is("shadow") &amp;&amp; THIS_BREAK_KEYS.indexOf(path.type) &gt;= 0;
+        })) {
+          path.replaceWith(t.identifier("undefined"));
+        }
+      },
+
+
+      Program: {
+        exit: function exit(path) {
+          this.ranCommonJS = true;
+
+          var strict = !!this.opts.strict;
+          var noInterop = !!this.opts.noInterop;
+
+          var scope = path.scope;
+
+          scope.rename("module");
+          scope.rename("exports");
+          scope.rename("require");
+
+          var hasExports = false;
+          var hasImports = false;
+
+          var body = path.get("body");
+          var imports = (0, _create2.default)(null);
+          var exports = (0, _create2.default)(null);
+
+          var nonHoistedExportNames = (0, _create2.default)(null);
+
+          var topNodes = [];
+          var remaps = (0, _create2.default)(null);
+
+          var requires = (0, _create2.default)(null);
+
+          function addRequire(source, blockHoist) {
+            var cached = requires[source]; ...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.babel-preset-es2015-node5.plugins.2" id="apidoc.element.babel-preset-es2015-node5.plugins.2">
+        function <span class="apidocSignatureSpan">babel-preset-es2015-node5.</span>plugins.2
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">plugins.2 = function () {
+  return {
+    visitor: _babelTraverse.visitors.merge([{
+      ArrowFunctionExpression: function ArrowFunctionExpression(path) {
+        var params = path.get("params");
+        for (var _iterator = params, _isArray = Array.isArray(_iterator), _i = 0, _iterator = _isArray ? _iterator : (0, _getIterator3
+.default)(_iterator);;) {
+          var _ref;
+
+          if (_isArray) {
+            if (_i &gt;= _iterator.length) break;
+            _ref = _iterator[_i++];
+          } else {
+            _i = _iterator.next();
+            if (_i.done) break;
+            _ref = _i.value;
+          }
+
+          var param = _ref;
+
+          if (param.isRestElement() || param.isAssignmentPattern()) {
+            path.arrowFunctionToShadowed();
+            break;
+          }
+        }
+      }
+    }, destructuring.visitor, rest.visitor, def.visitor])
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.babel-preset-es2015-node5.plugins.3" id="apidoc.element.babel-preset-es2015-node5.plugins.3">
+        function <span class="apidocSignatureSpan">babel-preset-es2015-node5.</span>plugins.3
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">plugins.3 = function () {
+  return {
+    visitor: {
+      RegExpLiteral: function RegExpLiteral(path) {
+        var node = path.node;
+
+        if (!regex.is(node, "y")) return;
+
+        path.replaceWith(t.newExpression(t.identifier("RegExp"), [t.stringLiteral(node.pattern), t.stringLiteral(node.flags)]));
+      }
+    }
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.babel-preset-es2015-node5.plugins.4" id="apidoc.element.babel-preset-es2015-node5.plugins.4">
+        function <span class="apidocSignatureSpan">babel-preset-es2015-node5.</span>plugins.4
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">plugins.4 = function () {
+  return {
+    visitor: {
+      RegExpLiteral: function RegExpLiteral(_ref) {
+        var node = _ref.node;
+
+        if (!regex.is(node, "u")) return;
+        node.pattern = (0, _regexpuCore2.default)(node.pattern, node.flags);
+        regex.pullFlag(node, "u");
+      }
+    }
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.babel-preset-es2015-node5.plugins.5" id="apidoc.element.babel-preset-es2015-node5.plugins.5">
+        function <span class="apidocSignatureSpan">babel-preset-es2015-node5.</span>plugins.5
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">plugins.5 = function () {
+  return {
+    visitor: {
+      FunctionExpression: {
+        exit: function exit(path) {
+          if (path.key !== "value" &amp;&amp; !path.parentPath.isObjectProperty()) {
+            var replacement = (0, _babelHelperFunctionName2.default)(path);
+            if (replacement) path.replaceWith(replacement);
+          }
+        }
+      },
+
+      ObjectProperty: function ObjectProperty(path) {
+        var value = path.get("value");
+        if (value.isFunction()) {
+          var newNode = (0, _babelHelperFunctionName2.default)(value);
+          if (newNode) value.replaceWith(newNode);
+        }
+      }
+    }
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.babel-preset-es2015-node5.plugins.6" id="apidoc.element.babel-preset-es2015-node5.plugins.6">
+        function <span class="apidocSignatureSpan">babel-preset-es2015-node5.</span>plugins.6
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">plugins.6 = function () {
+  return {
+    visitor: {
+      ObjectMethod: function ObjectMethod(path) {
+        var node = path.node;
+
+        if (node.kind === "method") {
+          var func = t.functionExpression(null, node.params, node.body, node.generator, node.async);
+          func.returnType = node.returnType;
+
+          path.replaceWith(t.objectProperty(node.key, func, node.computed));
+        }
+      },
+      ObjectProperty: function ObjectProperty(_ref) {
+        var node = _ref.node;
+
+        if (node.shorthand) {
+          node.shorthand = false;
+        }
+      }
+    }
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.babel-preset-es2015-node5.plugins" id="apidoc.module.babel-preset-es2015-node5.plugins">module babel-preset-es2015-node5.plugins</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.babel-preset-es2015-node5.plugins.0" id="apidoc.element.babel-preset-es2015-node5.plugins.0">
+        function <span class="apidocSignatureSpan">babel-preset-es2015-node5.plugins.</span>0
+        <span class="apidocSignatureSpan">(_ref)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">0 = function (_ref) {
+  var t = _ref.types;
+
+
+  function variableDeclarationHasPattern(node) {
+    for (var _iterator = node.declarations, _isArray = Array.isArray(_iterator), _i = 0, _iterator = _isArray ? _iterator : (0,
+_getIterator3.default)(_iterator);;) {
+      var _ref2;
+
+      if (_isArray) {
+        if (_i &gt;= _iterator.length) break;
+        _ref2 = _iterator[_i++];
+      } else {
+        _i = _iterator.next();
+        if (_i.done) break;
+        _ref2 = _i.value;
+      }
+
+      var declar = _ref2;
+
+      if (t.isPattern(declar.id)) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  function hasRest(pattern) {
+    for (var _iterator2 = pattern.elements, _isArray2 = Array.isArray(_iterator2), _i2 = 0, _iterator2 = _isArray2 ? _iterator2 : (
+0, _getIterator3.default)(_iterator2);;) {
+      var _ref3;
+
+      if (_isArray2) {
+        if (_i2 &gt;= _iterator2.length) break;
+        _ref3 = _iterator2[_i2++];
+      } else {
+        _i2 = _iterator2.next();
+        if (_i2.done) break;
+        _ref3 = _i2.value;
+      }
+
+      var elem = _ref3;
+
+      if (t.isRestElement(elem)) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  var arrayUnpackVisitor = {
+    ReferencedIdentifier: function ReferencedIdentifier(path, state) {
+      if (state.bindings[path.node.name]) {
+        state.deopt = true;
+        path.stop();
+      }
+    }
+  };
+
+  var DestructuringTransformer = function () {
+    function DestructuringTransformer(opts) {
+      (0, _classCallCheck3.default)(this, DestructuringTransformer);
+
+      this.blockHoist = opts.blockHoist;
+      this.operator = opts.operator;
+      this.arrays = {};
+      this.nodes = opts.nodes || [];
+      this.scope = opts.scope;
+      this.file = opts.file;
+      this.kind = opts.kind;
+    }
+
+    DestructuringTransformer.prototype.buildVariableAssignment = function buildVariableAssignment(id, init) {
+      var op = this.operator;
+      if (t.isMemberExpression(id)) op = "=";
+
+      var node = void 0;
+
+      if (op) {
+        node = t.expressionStatement(t.assignmentExpression(op, id, init));
+      } else {
+        node = t.variableDeclaration(this.kind, [t.variableDeclarator(id, init)]);
+      }
+
+      node._blockHoist = this.blockHoist;
+
+      return node;
+    };
+
+    DestructuringTransformer.prototype.buildVariableDeclaration = function buildVariableDeclaration(id, init) {
+      var declar = t.variableDeclaration("var", [t.variableDeclarator(id, init)]);
+      declar._blockHoist = this.blockHoist;
+      return declar;
+    };
+
+    DestructuringTransformer.prototype.push = function push(id, init) {
+      if (t.isObjectPattern(id)) {
+        this.pushObjectPattern(id, init);
+      } else if (t.isArrayPattern(id)) {
+        this.pushArrayPattern(id, init);
+      } else if (t.isAssignmentPattern(id)) {
+        this.pushAssignmentPattern(id, init);
+      } else {
+        this.nodes.push(this.buildVariableAssignment(id, init));
+      }
+    };
+
+    DestructuringTransformer.prototype.toArray = function toArray(node, count) {
+      if (this.file.opts.loose || t.isIdentifier(node) &amp;&amp; this.arrays[node.name]) {
+        return node;
+      } else {
+        return this.scope.toArray(node, count);
+      }
+    };
+
+    DestructuringTransformer.prototype.pushAssignmentPattern = function pushAssignmentPattern(pattern, valueRef) {
+
+      var tempValueRef = this.scope.generateUidIdentifierBasedOnNode(valueRef);
+
+      var declar = t.variableDeclaration("var", [t.variableDeclarator(tempValueRef, valueRef)]);
+      declar._blockHoist = this.blockHoist;
+      this.nodes.push(declar);
+
+      var tempConditional = t.conditionalExpression(t.binaryExpression("===", tempValueRef, t.identifier("undefined")), pattern.
+right, tempValueRef);
+
+      var left = pattern.left;
+      if (t.isPattern(left)) {
+        var tempValueDefault = t.expressionStatement(t.assignmentExpression("=", tempValueRef, tempConditional));
+        tempValueDefault._blockHoist = this.blockHoist;
+
+        this.nodes.push(tempValueDefault);
+        this.push(left, tempValueRef);
+      } else {
+        this.nodes.push(this.buildVar ...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.babel-preset-es2015-node5.plugins.1" id="apidoc.element.babel-preset-es2015-node5.plugins.1">
+        function <span class="apidocSignatureSpan">babel-preset-es2015-node5.plugins.</span>1
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">1 = function () {
+  var REASSIGN_REMAP_SKIP = (0, _symbol2.default)();
+
+  var reassignmentVisitor = {
+    ReferencedIdentifier: function ReferencedIdentifier(path) {
+      var name = path.node.name;
+      var remap = this.remaps[name];
+      if (!remap) return;
+
+      if (this.scope.getBinding(name) !== path.scope.getBinding(name)) return;
+
+      if (path.parentPath.isCallExpression({ callee: path.node })) {
+        path.replaceWith(t.sequenceExpression([t.numericLiteral(0), remap]));
+      } else if (path.isJSXIdentifier() &amp;&amp; t.isMemberExpression(remap)) {
+        var object = remap.object,
+            property = remap.property;
+
+        path.replaceWith(t.JSXMemberExpression(t.JSXIdentifier(object.name), t.JSXIdentifier(property.name)));
+      } else {
+        path.replaceWith(remap);
+      }
+      this.requeueInParent(path);
+    },
+    AssignmentExpression: function AssignmentExpression(path) {
+      var node = path.node;
+      if (node[REASSIGN_REMAP_SKIP]) return;
+
+      var left = path.get("left");
+      if (!left.isIdentifier()) return;
+
+      var name = left.node.name;
+      var exports = this.exports[name];
+      if (!exports) return;
+
+      if (this.scope.getBinding(name) !== path.scope.getBinding(name)) return;
+
+      node[REASSIGN_REMAP_SKIP] = true;
+
+      for (var _iterator = exports, _isArray = Array.isArray(_iterator), _i = 0, _iterator = _isArray ? _iterator : (0, _getIterator3
+.default)(_iterator);;) {
+        var _ref;
+
+        if (_isArray) {
+          if (_i &gt;= _iterator.length) break;
+          _ref = _iterator[_i++];
+        } else {
+          _i = _iterator.next();
+          if (_i.done) break;
+          _ref = _i.value;
+        }
+
+        var reid = _ref;
+
+        node = buildExportsAssignment(reid, node).expression;
+      }
+
+      path.replaceWith(node);
+      this.requeueInParent(path);
+    },
+    UpdateExpression: function UpdateExpression(path) {
+      var arg = path.get("argument");
+      if (!arg.isIdentifier()) return;
+
+      var name = arg.node.name;
+      var exports = this.exports[name];
+      if (!exports) return;
+
+      if (this.scope.getBinding(name) !== path.scope.getBinding(name)) return;
+
+      var node = t.assignmentExpression(path.node.operator[0] + "=", arg.node, t.numericLiteral(1));
+
+      if (path.parentPath.isExpressionStatement() &amp;&amp; !path.isCompletionRecord() || path.node.prefix) {
+        path.replaceWith(node);
+        this.requeueInParent(path);
+        return;
+      }
+
+      var nodes = [];
+      nodes.push(node);
+
+      var operator = void 0;
+      if (path.node.operator === "--") {
+        operator = "+";
+      } else {
+        operator = "-";
+      }
+      nodes.push(t.binaryExpression(operator, arg.node, t.numericLiteral(1)));
+
+      path.replaceWithMultiple(t.sequenceExpression(nodes));
+    }
+  };
+
+  return {
+    inherits: require("babel-plugin-transform-strict-mode"),
+
+    visitor: {
+      ThisExpression: function ThisExpression(path, state) {
+        if (this.ranCommonJS) return;
+
+        if (state.opts.allowTopLevelThis !== true &amp;&amp; !path.findParent(function (path) {
+          return !path.is("shadow") &amp;&amp; THIS_BREAK_KEYS.indexOf(path.type) &gt;= 0;
+        })) {
+          path.replaceWith(t.identifier("undefined"));
+        }
+      },
+
+
+      Program: {
+        exit: function exit(path) {
+          this.ranCommonJS = true;
+
+          var strict = !!this.opts.strict;
+          var noInterop = !!this.opts.noInterop;
+
+          var scope = path.scope;
+
+          scope.rename("module");
+          scope.rename("exports");
+          scope.rename("require");
+
+          var hasExports = false;
+          var hasImports = false;
+
+          var body = path.get("body");
+          var imports = (0, _create2.default)(null);
+          var exports = (0, _create2.default)(null);
+
+          var nonHoistedExportNames = (0, _create2.default)(null);
+
+          var topNodes = [];
+          var remaps = (0, _create2.default)(null);
+
+          var requires = (0, _create2.default)(null);
+
+          function addRequire(source, blockHoist) {
+            var cached = requires[source]; ...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.babel-preset-es2015-node5.plugins.2" id="apidoc.element.babel-preset-es2015-node5.plugins.2">
+        function <span class="apidocSignatureSpan">babel-preset-es2015-node5.plugins.</span>2
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">2 = function () {
+  return {
+    visitor: _babelTraverse.visitors.merge([{
+      ArrowFunctionExpression: function ArrowFunctionExpression(path) {
+        var params = path.get("params");
+        for (var _iterator = params, _isArray = Array.isArray(_iterator), _i = 0, _iterator = _isArray ? _iterator : (0, _getIterator3
+.default)(_iterator);;) {
+          var _ref;
+
+          if (_isArray) {
+            if (_i &gt;= _iterator.length) break;
+            _ref = _iterator[_i++];
+          } else {
+            _i = _iterator.next();
+            if (_i.done) break;
+            _ref = _i.value;
+          }
+
+          var param = _ref;
+
+          if (param.isRestElement() || param.isAssignmentPattern()) {
+            path.arrowFunctionToShadowed();
+            break;
+          }
+        }
+      }
+    }, destructuring.visitor, rest.visitor, def.visitor])
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.babel-preset-es2015-node5.plugins.3" id="apidoc.element.babel-preset-es2015-node5.plugins.3">
+        function <span class="apidocSignatureSpan">babel-preset-es2015-node5.plugins.</span>3
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">3 = function () {
+  return {
+    visitor: {
+      RegExpLiteral: function RegExpLiteral(path) {
+        var node = path.node;
+
+        if (!regex.is(node, "y")) return;
+
+        path.replaceWith(t.newExpression(t.identifier("RegExp"), [t.stringLiteral(node.pattern), t.stringLiteral(node.flags)]));
+      }
+    }
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.babel-preset-es2015-node5.plugins.4" id="apidoc.element.babel-preset-es2015-node5.plugins.4">
+        function <span class="apidocSignatureSpan">babel-preset-es2015-node5.plugins.</span>4
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">4 = function () {
+  return {
+    visitor: {
+      RegExpLiteral: function RegExpLiteral(_ref) {
+        var node = _ref.node;
+
+        if (!regex.is(node, "u")) return;
+        node.pattern = (0, _regexpuCore2.default)(node.pattern, node.flags);
+        regex.pullFlag(node, "u");
+      }
+    }
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.babel-preset-es2015-node5.plugins.5" id="apidoc.element.babel-preset-es2015-node5.plugins.5">
+        function <span class="apidocSignatureSpan">babel-preset-es2015-node5.plugins.</span>5
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">5 = function () {
+  return {
+    visitor: {
+      FunctionExpression: {
+        exit: function exit(path) {
+          if (path.key !== "value" &amp;&amp; !path.parentPath.isObjectProperty()) {
+            var replacement = (0, _babelHelperFunctionName2.default)(path);
+            if (replacement) path.replaceWith(replacement);
+          }
+        }
+      },
+
+      ObjectProperty: function ObjectProperty(path) {
+        var value = path.get("value");
+        if (value.isFunction()) {
+          var newNode = (0, _babelHelperFunctionName2.default)(value);
+          if (newNode) value.replaceWith(newNode);
+        }
+      }
+    }
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.babel-preset-es2015-node5.plugins.6" id="apidoc.element.babel-preset-es2015-node5.plugins.6">
+        function <span class="apidocSignatureSpan">babel-preset-es2015-node5.plugins.</span>6
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">6 = function () {
+  return {
+    visitor: {
+      ObjectMethod: function ObjectMethod(path) {
+        var node = path.node;
+
+        if (node.kind === "method") {
+          var func = t.functionExpression(null, node.params, node.body, node.generator, node.async);
+          func.returnType = node.returnType;
+
+          path.replaceWith(t.objectProperty(node.key, func, node.computed));
+        }
+      },
+      ObjectProperty: function ObjectProperty(_ref) {
+        var node = _ref.node;
+
+        if (node.shorthand) {
+          node.shorthand = false;
+        }
+      }
+    }
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.babel-preset-es2015-node5.plugins.0" id="apidoc.module.babel-preset-es2015-node5.plugins.0">module babel-preset-es2015-node5.plugins.0</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.babel-preset-es2015-node5.plugins.0.0" id="apidoc.element.babel-preset-es2015-node5.plugins.0.0">
+        function <span class="apidocSignatureSpan">babel-preset-es2015-node5.plugins.</span>0
+        <span class="apidocSignatureSpan">(_ref)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">0 = function (_ref) {
+  var t = _ref.types;
+
+
+  function variableDeclarationHasPattern(node) {
+    for (var _iterator = node.declarations, _isArray = Array.isArray(_iterator), _i = 0, _iterator = _isArray ? _iterator : (0,
+_getIterator3.default)(_iterator);;) {
+      var _ref2;
+
+      if (_isArray) {
+        if (_i &gt;= _iterator.length) break;
+        _ref2 = _iterator[_i++];
+      } else {
+        _i = _iterator.next();
+        if (_i.done) break;
+        _ref2 = _i.value;
+      }
+
+      var declar = _ref2;
+
+      if (t.isPattern(declar.id)) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  function hasRest(pattern) {
+    for (var _iterator2 = pattern.elements, _isArray2 = Array.isArray(_iterator2), _i2 = 0, _iterator2 = _isArray2 ? _iterator2 : (
+0, _getIterator3.default)(_iterator2);;) {
+      var _ref3;
+
+      if (_isArray2) {
+        if (_i2 &gt;= _iterator2.length) break;
+        _ref3 = _iterator2[_i2++];
+      } else {
+        _i2 = _iterator2.next();
+        if (_i2.done) break;
+        _ref3 = _i2.value;
+      }
+
+      var elem = _ref3;
+
+      if (t.isRestElement(elem)) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  var arrayUnpackVisitor = {
+    ReferencedIdentifier: function ReferencedIdentifier(path, state) {
+      if (state.bindings[path.node.name]) {
+        state.deopt = true;
+        path.stop();
+      }
+    }
+  };
+
+  var DestructuringTransformer = function () {
+    function DestructuringTransformer(opts) {
+      (0, _classCallCheck3.default)(this, DestructuringTransformer);
+
+      this.blockHoist = opts.blockHoist;
+      this.operator = opts.operator;
+      this.arrays = {};
+      this.nodes = opts.nodes || [];
+      this.scope = opts.scope;
+      this.file = opts.file;
+      this.kind = opts.kind;
+    }
+
+    DestructuringTransformer.prototype.buildVariableAssignment = function buildVariableAssignment(id, init) {
+      var op = this.operator;
+      if (t.isMemberExpression(id)) op = "=";
+
+      var node = void 0;
+
+      if (op) {
+        node = t.expressionStatement(t.assignmentExpression(op, id, init));
+      } else {
+        node = t.variableDeclaration(this.kind, [t.variableDeclarator(id, init)]);
+      }
+
+      node._blockHoist = this.blockHoist;
+
+      return node;
+    };
+
+    DestructuringTransformer.prototype.buildVariableDeclaration = function buildVariableDeclaration(id, init) {
+      var declar = t.variableDeclaration("var", [t.variableDeclarator(id, init)]);
+      declar._blockHoist = this.blockHoist;
+      return declar;
+    };
+
+    DestructuringTransformer.prototype.push = function push(id, init) {
+      if (t.isObjectPattern(id)) {
+        this.pushObjectPattern(id, init);
+      } else if (t.isArrayPattern(id)) {
+        this.pushArrayPattern(id, init);
+      } else if (t.isAssignmentPattern(id)) {
+        this.pushAssignmentPattern(id, init);
+      } else {
+        this.nodes.push(this.buildVariableAssignment(id, init));
+      }
+    };
+
+    DestructuringTransformer.prototype.toArray = function toArray(node, count) {
+      if (this.file.opts.loose || t.isIdentifier(node) &amp;&amp; this.arrays[node.name]) {
+        return node;
+      } else {
+        return this.scope.toArray(node, count);
+      }
+    };
+
+    DestructuringTransformer.prototype.pushAssignmentPattern = function pushAssignmentPattern(pattern, valueRef) {
+
+      var tempValueRef = this.scope.generateUidIdentifierBasedOnNode(valueRef);
+
+      var declar = t.variableDeclaration("var", [t.variableDeclarator(tempValueRef, valueRef)]);
+      declar._blockHoist = this.blockHoist;
+      this.nodes.push(declar);
+
+      var tempConditional = t.conditionalExpression(t.binaryExpression("===", tempValueRef, t.identifier("undefined")), pattern.
+right, tempValueRef);
+
+      var left = pattern.left;
+      if (t.isPattern(left)) {
+        var tempValueDefault = t.expressionStatement(t.assignmentExpression("=", tempValueRef, tempConditional));
+        tempValueDefault._blockHoist = this.blockHoist;
+
+        this.nodes.push(tempValueDefault);
+        this.push(left, tempValueRef);
+      } else {
+        this.nodes.push(this.buildVar ...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.babel-preset-es2015-node5.plugins.1" id="apidoc.module.babel-preset-es2015-node5.plugins.1">module babel-preset-es2015-node5.plugins.1</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.babel-preset-es2015-node5.plugins.1.1" id="apidoc.element.babel-preset-es2015-node5.plugins.1.1">
+        function <span class="apidocSignatureSpan">babel-preset-es2015-node5.plugins.</span>1
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">1 = function () {
+  var REASSIGN_REMAP_SKIP = (0, _symbol2.default)();
+
+  var reassignmentVisitor = {
+    ReferencedIdentifier: function ReferencedIdentifier(path) {
+      var name = path.node.name;
+      var remap = this.remaps[name];
+      if (!remap) return;
+
+      if (this.scope.getBinding(name) !== path.scope.getBinding(name)) return;
+
+      if (path.parentPath.isCallExpression({ callee: path.node })) {
+        path.replaceWith(t.sequenceExpression([t.numericLiteral(0), remap]));
+      } else if (path.isJSXIdentifier() &amp;&amp; t.isMemberExpression(remap)) {
+        var object = remap.object,
+            property = remap.property;
+
+        path.replaceWith(t.JSXMemberExpression(t.JSXIdentifier(object.name), t.JSXIdentifier(property.name)));
+      } else {
+        path.replaceWith(remap);
+      }
+      this.requeueInParent(path);
+    },
+    AssignmentExpression: function AssignmentExpression(path) {
+      var node = path.node;
+      if (node[REASSIGN_REMAP_SKIP]) return;
+
+      var left = path.get("left");
+      if (!left.isIdentifier()) return;
+
+      var name = left.node.name;
+      var exports = this.exports[name];
+      if (!exports) return;
+
+      if (this.scope.getBinding(name) !== path.scope.getBinding(name)) return;
+
+      node[REASSIGN_REMAP_SKIP] = true;
+
+      for (var _iterator = exports, _isArray = Array.isArray(_iterator), _i = 0, _iterator = _isArray ? _iterator : (0, _getIterator3
+.default)(_iterator);;) {
+        var _ref;
+
+        if (_isArray) {
+          if (_i &gt;= _iterator.length) break;
+          _ref = _iterator[_i++];
+        } else {
+          _i = _iterator.next();
+          if (_i.done) break;
+          _ref = _i.value;
+        }
+
+        var reid = _ref;
+
+        node = buildExportsAssignment(reid, node).expression;
+      }
+
+      path.replaceWith(node);
+      this.requeueInParent(path);
+    },
+    UpdateExpression: function UpdateExpression(path) {
+      var arg = path.get("argument");
+      if (!arg.isIdentifier()) return;
+
+      var name = arg.node.name;
+      var exports = this.exports[name];
+      if (!exports) return;
+
+      if (this.scope.getBinding(name) !== path.scope.getBinding(name)) return;
+
+      var node = t.assignmentExpression(path.node.operator[0] + "=", arg.node, t.numericLiteral(1));
+
+      if (path.parentPath.isExpressionStatement() &amp;&amp; !path.isCompletionRecord() || path.node.prefix) {
+        path.replaceWith(node);
+        this.requeueInParent(path);
+        return;
+      }
+
+      var nodes = [];
+      nodes.push(node);
+
+      var operator = void 0;
+      if (path.node.operator === "--") {
+        operator = "+";
+      } else {
+        operator = "-";
+      }
+      nodes.push(t.binaryExpression(operator, arg.node, t.numericLiteral(1)));
+
+      path.replaceWithMultiple(t.sequenceExpression(nodes));
+    }
+  };
+
+  return {
+    inherits: require("babel-plugin-transform-strict-mode"),
+
+    visitor: {
+      ThisExpression: function ThisExpression(path, state) {
+        if (this.ranCommonJS) return;
+
+        if (state.opts.allowTopLevelThis !== true &amp;&amp; !path.findParent(function (path) {
+          return !path.is("shadow") &amp;&amp; THIS_BREAK_KEYS.indexOf(path.type) &gt;= 0;
+        })) {
+          path.replaceWith(t.identifier("undefined"));
+        }
+      },
+
+
+      Program: {
+        exit: function exit(path) {
+          this.ranCommonJS = true;
+
+          var strict = !!this.opts.strict;
+          var noInterop = !!this.opts.noInterop;
+
+          var scope = path.scope;
+
+          scope.rename("module");
+          scope.rename("exports");
+          scope.rename("require");
+
+          var hasExports = false;
+          var hasImports = false;
+
+          var body = path.get("body");
+          var imports = (0, _create2.default)(null);
+          var exports = (0, _create2.default)(null);
+
+          var nonHoistedExportNames = (0, _create2.default)(null);
+
+          var topNodes = [];
+          var remaps = (0, _create2.default)(null);
+
+          var requires = (0, _create2.default)(null);
+
+          function addRequire(source, blockHoist) {
+            var cached = requires[source]; ...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.babel-preset-es2015-node5.plugins.2" id="apidoc.module.babel-preset-es2015-node5.plugins.2">module babel-preset-es2015-node5.plugins.2</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.babel-preset-es2015-node5.plugins.2.2" id="apidoc.element.babel-preset-es2015-node5.plugins.2.2">
+        function <span class="apidocSignatureSpan">babel-preset-es2015-node5.plugins.</span>2
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">2 = function () {
+  return {
+    visitor: _babelTraverse.visitors.merge([{
+      ArrowFunctionExpression: function ArrowFunctionExpression(path) {
+        var params = path.get("params");
+        for (var _iterator = params, _isArray = Array.isArray(_iterator), _i = 0, _iterator = _isArray ? _iterator : (0, _getIterator3
+.default)(_iterator);;) {
+          var _ref;
+
+          if (_isArray) {
+            if (_i &gt;= _iterator.length) break;
+            _ref = _iterator[_i++];
+          } else {
+            _i = _iterator.next();
+            if (_i.done) break;
+            _ref = _i.value;
+          }
+
+          var param = _ref;
+
+          if (param.isRestElement() || param.isAssignmentPattern()) {
+            path.arrowFunctionToShadowed();
+            break;
+          }
+        }
+      }
+    }, destructuring.visitor, rest.visitor, def.visitor])
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.babel-preset-es2015-node5.plugins.3" id="apidoc.module.babel-preset-es2015-node5.plugins.3">module babel-preset-es2015-node5.plugins.3</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.babel-preset-es2015-node5.plugins.3.3" id="apidoc.element.babel-preset-es2015-node5.plugins.3.3">
+        function <span class="apidocSignatureSpan">babel-preset-es2015-node5.plugins.</span>3
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">3 = function () {
+  return {
+    visitor: {
+      RegExpLiteral: function RegExpLiteral(path) {
+        var node = path.node;
+
+        if (!regex.is(node, "y")) return;
+
+        path.replaceWith(t.newExpression(t.identifier("RegExp"), [t.stringLiteral(node.pattern), t.stringLiteral(node.flags)]));
+      }
+    }
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.babel-preset-es2015-node5.plugins.4" id="apidoc.module.babel-preset-es2015-node5.plugins.4">module babel-preset-es2015-node5.plugins.4</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.babel-preset-es2015-node5.plugins.4.4" id="apidoc.element.babel-preset-es2015-node5.plugins.4.4">
+        function <span class="apidocSignatureSpan">babel-preset-es2015-node5.plugins.</span>4
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">4 = function () {
+  return {
+    visitor: {
+      RegExpLiteral: function RegExpLiteral(_ref) {
+        var node = _ref.node;
+
+        if (!regex.is(node, "u")) return;
+        node.pattern = (0, _regexpuCore2.default)(node.pattern, node.flags);
+        regex.pullFlag(node, "u");
+      }
+    }
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.babel-preset-es2015-node5.plugins.5" id="apidoc.module.babel-preset-es2015-node5.plugins.5">module babel-preset-es2015-node5.plugins.5</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.babel-preset-es2015-node5.plugins.5.5" id="apidoc.element.babel-preset-es2015-node5.plugins.5.5">
+        function <span class="apidocSignatureSpan">babel-preset-es2015-node5.plugins.</span>5
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">5 = function () {
+  return {
+    visitor: {
+      FunctionExpression: {
+        exit: function exit(path) {
+          if (path.key !== "value" &amp;&amp; !path.parentPath.isObjectProperty()) {
+            var replacement = (0, _babelHelperFunctionName2.default)(path);
+            if (replacement) path.replaceWith(replacement);
+          }
+        }
+      },
+
+      ObjectProperty: function ObjectProperty(path) {
+        var value = path.get("value");
+        if (value.isFunction()) {
+          var newNode = (0, _babelHelperFunctionName2.default)(value);
+          if (newNode) value.replaceWith(newNode);
+        }
+      }
+    }
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.babel-preset-es2015-node5.plugins.6" id="apidoc.module.babel-preset-es2015-node5.plugins.6">module babel-preset-es2015-node5.plugins.6</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.babel-preset-es2015-node5.plugins.6.6" id="apidoc.element.babel-preset-es2015-node5.plugins.6.6">
+        function <span class="apidocSignatureSpan">babel-preset-es2015-node5.plugins.</span>6
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">6 = function () {
+  return {
+    visitor: {
+      ObjectMethod: function ObjectMethod(path) {
+        var node = path.node;
+
+        if (node.kind === "method") {
+          var func = t.functionExpression(null, node.params, node.body, node.generator, node.async);
+          func.returnType = node.returnType;
+
+          path.replaceWith(t.objectProperty(node.key, func, node.computed));
+        }
+      },
+      ObjectProperty: function ObjectProperty(_ref) {
+        var node = _ref.node;
+
+        if (node.shorthand) {
+          node.shorthand = false;
+        }
+      }
+    }
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
+</body></html>

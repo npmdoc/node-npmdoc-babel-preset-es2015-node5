@@ -1,4 +1,7 @@
-# api documentation for  [babel-preset-es2015-node5 (v1.2.0)](https://github.com/alekseykulikov/babel-preset-es2015-node5#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-babel-preset-es2015-node5.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-babel-preset-es2015-node5) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-babel-preset-es2015-node5.svg)](https://travis-ci.org/npmdoc/node-npmdoc-babel-preset-es2015-node5)
+# npmdoc-babel-preset-es2015-node5
+
+#### api documentation for  babel-preset-es2015-node5 (v1.2.0)  [![npm package](https://img.shields.io/npm/v/npmdoc-babel-preset-es2015-node5.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-babel-preset-es2015-node5) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-babel-preset-es2015-node5.svg)](https://travis-ci.org/npmdoc/node-npmdoc-babel-preset-es2015-node5)
+
 #### Babel preset to make node@5 fully ES2015 compatible.
 
 [![NPM](https://nodei.co/npm/babel-preset-es2015-node5.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/babel-preset-es2015-node5)
@@ -18,8 +21,25 @@
 ```json
 
 {
-    "bugs": {
-        "url": "https://github.com/alekseykulikov/babel-preset-es2015-node5/issues"
+    "name": "babel-preset-es2015-node5",
+    "description": "Babel preset to make node@5 fully ES2015 compatible.",
+    "repository": "alekseykulikov/babel-preset-es2015-node5",
+    "version": "1.2.0",
+    "license": "MIT",
+    "keywords": [
+        "babel-preset-es2015",
+        "babel-preset",
+        "babel",
+        "node5",
+        "es2015",
+        "es6"
+    ],
+    "main": "lib/index.js",
+    "files": [
+        "lib"
+    ],
+    "scripts": {
+        "test": "eslint lib/ test/ && mocha test/index.js"
     },
     "dependencies": {
         "babel-plugin-transform-es2015-destructuring": "^6.6.5",
@@ -30,7 +50,6 @@
         "babel-plugin-transform-es2015-sticky-regex": "^6.5.0",
         "babel-plugin-transform-es2015-unicode-regex": "^6.5.0"
     },
-    "description": "Babel preset to make node@5 fully ES2015 compatible.",
     "devDependencies": {
         "babel-core": "^6.7.2",
         "babel-eslint": "^5.0.0-beta6",
@@ -38,42 +57,7 @@
         "eslint": "^1.10.3",
         "eslint-config-airbnb": "^3.1.0",
         "mocha": "^2.4.5"
-    },
-    "directories": {},
-    "dist": {
-        "shasum": "dedc38178d5873a07be3065b5f669fc90677eb8b",
-        "tarball": "https://registry.npmjs.org/babel-preset-es2015-node5/-/babel-preset-es2015-node5-1.2.0.tgz"
-    },
-    "files": [
-        "lib"
-    ],
-    "gitHead": "20f6415b7984b02532ac57e3bf980c919186de2b",
-    "homepage": "https://github.com/alekseykulikov/babel-preset-es2015-node5#readme",
-    "keywords": [
-        "babel-preset-es2015",
-        "babel-preset",
-        "babel",
-        "node5",
-        "es2015",
-        "es6"
-    ],
-    "license": "MIT",
-    "main": "lib/index.js",
-    "maintainers": [
-        {
-            "name": "alekseykulikov"
-        }
-    ],
-    "name": "babel-preset-es2015-node5",
-    "optionalDependencies": {},
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/alekseykulikov/babel-preset-es2015-node5.git"
-    },
-    "scripts": {
-        "test": "eslint lib/ test/ && mocha test/index.js"
-    },
-    "version": "1.2.0"
+    }
 }
 ```
 
